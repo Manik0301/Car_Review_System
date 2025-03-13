@@ -37,9 +37,10 @@ This project is a simple Java application built using the JavaFX framework for t
      );
      ```
 
-3. **Add Required Libraries**:  
+3. Add Required Libraries:  
    - Include the JDBC driver for Oracle 21c in your project to enable database connectivity.  
-   - In VS Code, ensure all required dependencies (JavaFX, JDBC) are added to the build path.  
+   - In VS Code, ensure all required dependencies (JavaFX, JDBC) are added to the build path.
+   - Add the necessary paths of pictures in fxml files from java_pictures directory
 
 Once these dependencies are set up, you can run the project and interact with the database seamlessly.
 
