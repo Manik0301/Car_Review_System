@@ -15,5 +15,32 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 > If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
 ## Dependency Management
+### JavaFX Project with Oracle 21c Database  
+
+This project is a simple Java application built using the JavaFX framework for the graphical user interface and Oracle 21c for database management. It allows users to interact with a database, performing operations like storing and retrieving user details.  
+
+#### Setup Instructions Before Running the Project:  
+
+1. Build JavaFX Dependencies:  
+   - Ensure you have the necessary JavaFX libraries configured in your project.  
+   - If using VS Code, add the required JavaFX modules in your build path.  
+
+2. Database Setup (Oracle 21c):  
+   - Before running the project, create a table in your Oracle 21c database:  
+
+     ```sql
+     CREATE TABLE users (
+         usernames VARCHAR2(50) PRIMARY KEY,
+         passwords VARCHAR2(50) NOT NULL,
+         mobile_numbers VARCHAR2(15) UNIQUE NOT NULL,
+         emailids VARCHAR2(100) UNIQUE NOT NULL
+     );
+     ```
+
+3. **Add Required Libraries**:  
+   - Include the JDBC driver for Oracle 21c in your project to enable database connectivity.  
+   - In VS Code, ensure all required dependencies (JavaFX, JDBC) are added to the build path.  
+
+Once these dependencies are set up, you can run the project and interact with the database seamlessly.
 
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
