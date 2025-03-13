@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<ScrollPane hbarPolicy="NEVER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="441.0" prefWidth="603.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml_files.ReviewPageController">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="950.0" prefWidth="603.0" style="-fx-background-color: black;">
+         <children>
+            <Text fill="RED" layoutX="15.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="~Your Car Review" wrappingWidth="471.7367172241211">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Text>
+            <Button fx:id="BackBtn" layoutX="188.0" layoutY="14.0" mnemonicParsing="false" onAction="#BackAction" prefHeight="71.0" prefWidth="216.0" style="-fx-background-color: black;">
+               <graphic>
+                  <ImageView fitHeight="85.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../java_BAKWAS/care-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Pane layoutX="5.0" layoutY="175.0" prefHeight="100.0" prefWidth="580.0">
+               <children>
+                  <Text fill="RED" layoutX="15.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1.For which car you are submitting your review?" wrappingWidth="558.9367389678955">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <TextArea fx:id="Que1" layoutX="14.0" layoutY="50.0" prefHeight="35.0" prefWidth="555.0" />
+               </children>
+            </Pane>
+            <Pane layoutX="5.0" layoutY="290.0" prefHeight="100.0" prefWidth="580.0">
+               <children>
+                  <Text fill="RED" layoutX="15.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. What is the color of the car you would prefer?" wrappingWidth="558.9367389678955">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <TextArea fx:id="Que2" layoutX="14.0" layoutY="50.0" prefHeight="35.0" prefWidth="555.0" />
+               </children>
+            </Pane>
+            <Pane layoutX="5.0" layoutY="405.0" prefHeight="100.0" prefWidth="580.0">
+               <children>
+                  <Text fill="RED" layoutX="15.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3.Would you like new set of alloy wheels?" wrappingWidth="558.9367389678955">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <TextArea fx:id="Que3" layoutX="14.0" layoutY="50.0" prefHeight="35.0" prefWidth="555.0" />
+               </children>
+            </Pane>
+            <Pane layoutX="5.0" layoutY="520.0" prefHeight="100.0" prefWidth="580.0">
+               <children>
+                  <Text fill="RED" layoutX="15.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4.Any kind of opinion on the interior design?" wrappingWidth="558.9367389678955">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <TextArea fx:id="Que4" layoutX="14.0" layoutY="50.0" prefHeight="35.0" prefWidth="555.0" />
+               </children>
+            </Pane>
+            <Pane layoutX="5.0" layoutY="635.0" prefHeight="130.0" prefWidth="580.0">
+               <children>
+                  <Text fill="RED" layoutX="15.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5.Any modification that you would like in this car, for reference of future models?" wrappingWidth="558.9367389678955">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <TextArea fx:id="Que5" layoutX="12.0" layoutY="65.0" prefHeight="35.0" prefWidth="555.0" />
+               </children>
+            </Pane>
+            <Pane layoutX="5.0" layoutY="750.0" prefHeight="100.0" prefWidth="580.0">
+               <children>
+                  <Text fill="RED" layoutX="15.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6.Your remarks and opinion you would like to give about our services?" wrappingWidth="558.9367389678955">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <TextArea fx:id="Que6" layoutX="14.0" layoutY="50.0" prefHeight="35.0" prefWidth="555.0" />
+               </children>
+            </Pane>
+            <Button fx:id="Submit" layoutX="321.0" layoutY="863.0" mnemonicParsing="false" onAction="#SubmitAction" prefHeight="58.0" prefWidth="106.0" style="-fx-background-color: black;">
+               <graphic>
+                  <ImageView fitHeight="52.0" fitWidth="89.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../java_BAKWAS/DeWatermark.ai_1725781435165-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="Cancel" layoutX="450.0" layoutY="844.0" mnemonicParsing="false" onAction="#CancelAction" prefHeight="96.0" prefWidth="94.0" style="-fx-background-color: black;">
+               <graphic>
+                  <ImageView fitHeight="85.0" fitWidth="118.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../../../java_BAKWAS/DeWatermark.ai_1725781943132-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>

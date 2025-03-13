@@ -1,0 +1,17 @@
+{
+    "java.project.sourcePaths": [
+        "src"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "c:\\java 2024\\oracle-21c-connector\\ojdbc17.jar",
+        "c:\\java 2024\\javafx\\javafx-sdk-21.0.3\\lib\\javafx-swt.jar",
+        "c:\\java 2024\\javafx\\javafx-sdk-21.0.3\\lib\\javafx.web.jar",
+        "c:\\java 2024\\javafx\\javafx-sdk-21.0.3\\lib\\javafx.swing.jar",
+        "c:\\java 2024\\javafx\\javafx-sdk-21.0.3\\lib\\javafx.media.jar",
+        "c:\\java 2024\\javafx\\javafx-sdk-21.0.3\\lib\\javafx.graphics.jar",
+        "c:\\java 2024\\javafx\\javafx-sdk-21.0.3\\lib\\javafx.fxml.jar",
+        "c:\\java 2024\\javafx\\javafx-sdk-21.0.3\\lib\\javafx.controls.jar",
+        "c:\\java 2024\\javafx\\javafx-sdk-21.0.3\\lib\\javafx.base.jar"
+    ]
+}
