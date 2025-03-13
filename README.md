@@ -1,6 +1,7 @@
 ## Getting Started
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+i developed a simple Java project using the JavaFX framework for the user interface and Oracle 21c for database management. The project focused on creating an interactive and user-friendly application with features such as data input, retrieval, and basic CRUD (Create, Read, Update, Delete) operations. JavaFX provided a dynamic and responsive UI, while Oracle 21c ensured efficient data storage and management. The project demonstrated seamless database connectivity using JDBC, enabling smooth interaction between the front-end and back-end. It served as a practical implementation of UI development and database integration using modern Java technologies.
 
 ## Folder Structure
 
